@@ -1,0 +1,14 @@
+Before you run this project, install the Google Client SDK first. To do that, follow the instructions.
+
+1. Download composer
+Go to cmd or terminal
+Make sure you are in the right path (project folder directory)
+use cd project_name to go inside the folder and cd .. to go back up out of the folder
+In the terminal use the command composer install (if you need to install composer itself, see their official website)
+Your vendor folder is installed
+2. Download Google Client SDK using Composer and using the ff command:
+    composer require google/apiclient:"^2.0"
+
+Next, create a new Project and oAuth Credential @ https://console.cloud.google.com/. Then copy/paste the ClientID and Secret at the given variable located at the login.php file.
+
+Run the project.
